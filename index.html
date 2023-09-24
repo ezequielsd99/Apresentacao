@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./estilos/reset.css">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/responsive.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/favicon-16x16.png">
+    <link rel="manifest" href="./src/site.webmanifest">
+    <title>Apresentação</title>
+</head>
+<body>
+    <header class="nome">
+        <h1>Ezequiel Doreia</h1>
+    </header>
+    
+    <div class="curriculo">
+        <figure class="foto" >
+            <img src="./src/foto.png" alt="minha foto" width="250px">
+        </figure>
+        <section class="curso">
+            <p>UnB-Engenharia de Computação</p>
+            <p>Aspirante a programador com foco em web designer</p>
+        </section>
+        <section class="icones">
+            <a href="https://www.instagram.com/ezequieldoreia/" target="_blank">
+                    <i class="fa-brands fa-instagram fa-2x" style="color:  rgb(248, 111, 255);"></i>
+            </a>
+            <a href="https://github.com/ezequielsd99" target="_blank">
+            <i class="fa-brands fa-github fa-2x" style="color:  rgb(248, 111, 255);;"></i>
+            </a> 
+            <a href="https://www.linkedin.com/in/ezequiel-doreia-428142160/" target="_blank">
+            <i class="fa-brands fa-linkedin-in fa-2x" style="color:  rgb(248, 111, 255);;"></i>
+            </a>
+            <a href="https://web.facebook.com/ezequiel.doreia/" target="_blank">
+            <i class="fa-brands fa-facebook fa-2x" style="color:  rgb(248, 111, 255);"></i>
+            </a>
+        </section> 
+    </div>
+
+    <section class="sobre-mim">
+        <h2>•Sobre mim</h2>
+        <p>Atualmente cursando Engenharia de Computação na Universidade de Brasília, após cursar 6 anos uma graduação em Química Tecnológica na mesma instituição, onde também acumulei 7 meses de experiência prática através de estágios. Estou focado em minha constante evolução profissional, investindo tempo em cursos de programação e obtendo certificados em diversas áreas. Como entusiasta da tecnologia, mantenho um interesse voraz em aprendizado contínuo. Além disso, minha paixão por animes e jogos, tanto de tabuleiro quanto eletrônicos, proporciona uma forma de diversão e relaxamento, com preferência por abordagens casuais nos jogos.</p>
+    </section>
+
+    <section class="curiosidades">
+        <h2>•Curiosidades</h2>
+        <p id="texto1">• Meu jogo favorito é God of War; 
+            <button id="botGod" class="icon-button"  title="Clique aqui">
+                <div id="mensagem"></div>
+                <i class="fa-brands fa-playstation fa-lg" style="color: white;"></i>
+            </button>
+            <button id="audioButton1" class="icon-button" title="GOW (aumente o volume)">
+                <i class="fa-solid fa-play fa-lg" style="color: white;"></i>
+            </button>
+        </p>
+        <img id="imagemGod" src="./src/god-of-war-03.gif" alt="God of War">
+        <audio id="audio1" src="./src/Música-Tema-Do-God-Of-War-2-PS2.mp3"></audio>
+
+        <p id="texto2">• Meu filme favorito é Wall-E; 
+            <button id="botWe" class="icon-button">
+                <i class="fa-solid fa-film fa-lg" style="color: white;" title="Clique aqui">   
+            </i>
+            </button>
+            <button id="audioButton2" class="icon-button" title="Wall-E (aumente o volume)">
+                <i class="fa-solid fa-play fa-lg" style="color: white;"></i>
+            </button>
+        </p>
+        <img id="imagemWe" src="./src/Wall-E.gif" alt="Wall-E" class="imgW">
+        <audio id="audio2" src="./src/3- Wall E (Wall E).mp3"></audio>
+
+        <p>• Quanto a música sou bastante eclético e minha banda favorita é Megadeth;
+            <a href="https://music.youtube.com/watch?v=qWNEDlT5VLM&si=eeKXDMFM2xQRhzB7" target="_blank"><i class="fa-brands fa-youtube fa-lg icones" style="color: red;" title="Clique aqui"></i></a>
+        </p>
+        <p>• Tenho dois cachorros que se chamam Beto e Helena. 
+            <a href="https://www.instagram.com/beto_helena_pera/" target="_blank">
+                <i class="fa-brands fa-instagram fa-lg icones" style="color: white;" title="Clique aqui"></i>
+            </a>
+        </p>
+        <p>• Uma das minhas plataformas preferidas de games no pc é a steam. 
+            <a href="https://steamcommunity.com/id/TheDelicioso/" target="_blank">
+                <i class="fa-brands fa-steam fa-lg" style="color: white;" title="Clique aqui">
+                </i>
+            </a>
+            </p>
+    </section>
+    
+    <script src='main.js'> </script>
+</body>
+</html>
